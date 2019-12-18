@@ -15,10 +15,11 @@ int main()
     }
     insertion_sort(arr, 50);
     p_arr = arr;
-    for(int i = 0; i < ARR; i++)
+    for(int i = 0; i < ARR - 1; i++)
     {
         printf("%d,",*p_arr);
         p_arr++;
     }
+    printf("%d", *p_arr);
     return 0;
 }
