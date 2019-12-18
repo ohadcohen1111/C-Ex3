@@ -20,6 +20,6 @@ int main()
         printf("%d,",*p_arr);
         p_arr++;
     }
-    printf("%d", *p_arr);
+    printf("%d\n", *p_arr);
     return 0;
 }
